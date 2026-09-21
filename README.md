@@ -7,3 +7,6 @@ The application takes a single command argument, which will be interpreted as a 
 To run the program, compile the following files: replace.c traversal.c text.c report.c, then run replace.c with the target string.
 
 DirX includes text files and nested directories that can be used to test the application. The intended target string is 'apple'. Some of the files include the word, and some do not.
+To test the application, traverse to the project directory in terminal and run the following commands:
+gcc replace.c traversal.c text.c report.c
+./a.exe apple
